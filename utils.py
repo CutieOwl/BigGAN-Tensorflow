@@ -48,7 +48,7 @@ def load_data(dataset_name) :
         x = load_cifar10()
     else :
 
-        x = glob(os.path.join("./dataset", dataset_name, '*.*'))
+        x = glob(os.path.join("../../data", dataset_name, '*.*'))
 
     return x
 
